@@ -12,11 +12,12 @@ export function ServiceGrid() {
           <Reveal key={service.slug}>
             <Link href={`/servicios/${service.slug}`} className="group flex h-full flex-col rounded-card border border-line bg-surface p-6 hover:border-accent">
               <span className="flex items-center justify-between font-mono text-xs text-accent">
-                {service.slug.toUpperCase()}
+                {service.category}
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" />
               </span>
               <h2 className="mt-10 text-lg font-semibold text-ink">{service.title}</h2>
               <p className="mt-2 text-sm leading-6 text-muted">{service.summary}</p>
+              <span className="mt-auto pt-8 text-xs font-medium text-accent">Explorar capacidad</span>
             </Link>
           </Reveal>
         ))}

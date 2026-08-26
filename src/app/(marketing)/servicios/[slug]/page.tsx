@@ -3,11 +3,11 @@ import { Container } from "@/components/layout/container";
 import { Heading } from "@/components/layout/heading";
 import { Section } from "@/components/layout/section";
 import { Button } from "@/components/ui/button";
-import { getService, services } from "@/content/services";
+import { getService, serviceSlugs } from "@/content/services";
 import { createPageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
-  return services.map((service) => ({ slug: service.slug }));
+  return serviceSlugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {

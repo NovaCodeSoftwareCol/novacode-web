@@ -5,10 +5,10 @@ import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
   title: marketingPages.servicios.title,
-  description: marketingPages.servicios.description,
+  description: "Ingeniería de software, modernización tecnológica e integración de soluciones multi-stack.",
   path: "/servicios",
 });
 
 export default function ServiciosPage() {
-  return <><PageIntro heading={marketingPages.servicios.heading} description={marketingPages.servicios.description} /><ServiceGrid /></>;
+  return <><PageIntro heading="Ingeniería para evolucionar tu software" description="Modernizamos, desarrollamos e integramos soluciones tecnológicas para que tu negocio avance, sin importar dónde comenzó tu sistema." /><ServiceGrid /></>;
 }

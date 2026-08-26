@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
+import { blogPosts } from "@/content/blog/posts";
+import { serviceSlugs } from "@/content/services";
 
 const routes = [
   "",
@@ -13,7 +15,12 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map((path) => ({
+  const allRoutes = [
+    ...routes,
+    ...serviceSlugs.map((slug) => `/servicios/${slug}`),
+    ...blogPosts.map((post) => `/blog/${post.slug}`),
+  ];
+  return allRoutes.map((path) => ({
     url: `${siteConfig.url}${path}`,
     lastModified: new Date(),
     changeFrequency: path === "" ? "weekly" : "monthly",

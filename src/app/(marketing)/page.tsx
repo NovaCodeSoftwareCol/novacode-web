@@ -56,8 +56,6 @@ export const metadata = {
 };
 
 export default function HomePage() {
-  const page = marketingPages.home;
-
   return (
     <>
       <Section className="relative overflow-hidden !pb-0">
@@ -66,7 +64,7 @@ export default function HomePage() {
             <Reveal>
               <p className="font-mono text-xs tracking-[0.2em] text-legacy uppercase">{homeContent.eyebrow}</p>
               <Heading className="mt-4 max-w-3xl">{homeContent.hero.heading}</Heading>
-              <p className="mt-6 max-w-2xl text-base leading-7 text-muted sm:text-lg">{page.description}</p>
+              <p className="mt-6 max-w-2xl text-base leading-7 text-muted sm:text-lg">{homeContent.hero.description}</p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button href={ctaNav.primary.href}>{ctaNav.primary.label}</Button>
                 <Button href={ctaNav.secondary.href} variant="secondary">

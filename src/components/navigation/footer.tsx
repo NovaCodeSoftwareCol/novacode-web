@@ -57,7 +57,7 @@ export function Footer() {
       </Container>
       <Container className="border-t border-line py-6">
         <p className="text-xs text-muted">
-          © {new Date().getFullYear()} NovaCode. Modernización Java sin detener la operación.
+          © {new Date().getFullYear()} NovaCode. Ingeniería para evolucionar tu software.
         </p>
       </Container>
     </footer>

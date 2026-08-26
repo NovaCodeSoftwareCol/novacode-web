@@ -1,9 +1,9 @@
 export const homeContent = {
   eyebrow: "Legacy → Modern → Future",
   hero: {
-    heading: "Modernizamos sistemas Java antiguos sin detener la operación.",
+    heading: "Modernizamos la tecnología que mueve tu negocio.",
     description:
-      "Transformamos aplicaciones Java legacy en plataformas mantenibles y escalables mediante una modernización progresiva, medible y segura.",
+      "Diseñamos, modernizamos e integramos soluciones de software para transformar sistemas existentes y construir nuevas plataformas preparadas para crecer.",
   },
   problems: [
     "Versiones antiguas de Java y dependencias sin soporte",

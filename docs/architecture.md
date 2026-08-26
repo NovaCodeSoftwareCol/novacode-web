@@ -2,7 +2,7 @@
 
 ## Visión
 
-NovaCode es una plataforma B2B de modernización Java. El sitio de marketing es la cara inicial; diagnóstico, autenticación, dashboard, portal, IA y marketplace se añaden por sprints sin reconstruir el shell.
+NovaCode es una empresa de ingeniería de software y transformación tecnológica. Java es una especialidad importante dentro de una oferta multi-stack; el sitio de marketing es la cara inicial y las capacidades de producto se añaden por sprints sin reconstruir el shell.
 
 ## Principios
 

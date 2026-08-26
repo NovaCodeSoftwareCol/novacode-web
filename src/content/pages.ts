@@ -1,15 +1,15 @@
 export const marketingPages = {
   home: {
     title: "NovaCode",
-    heading: "Modernizamos sistemas Java antiguos sin detener la operación.",
+    heading: "Modernizamos la tecnología que mueve tu negocio.",
     description:
-      "Plataforma y equipo de ingeniería para modernizar aplicaciones Java legacy de forma incremental: diagnóstico, arquitectura, migración y operación continua.",
+      "Empresa de ingeniería de software y transformación tecnológica para modernizar, desarrollar e integrar soluciones que puedan crecer contigo.",
   },
   servicios: {
     title: "Servicios",
     heading: "Servicios de modernización Java",
     description:
-      "Modernización de plataformas Java, APIs, datos y automatización. El detalle de cada servicio se ampliará en el siguiente sprint.",
+      "Modernización, desarrollo e integración de software con capacidades en backend, frontend, cloud, datos, IA y arquitectura.",
   },
   soluciones: {
     title: "Soluciones",

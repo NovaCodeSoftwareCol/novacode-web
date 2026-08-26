@@ -27,11 +27,11 @@
 
 - El dominio de producción aún está pendiente.
 - El diagnóstico valida y simula el envío; la persistencia backend queda pendiente.
-- Las páginas `/soluciones`, `/proceso`, `/tecnologias` y `/nosotros` aún usan el bloque introductorio compartido.
+- Las páginas informativas usan una plantilla editorial compartida; tecnologías incluye el stack organizado por categorías.
 - El blog usa contenido local de demostración, sin CMS.
 - Los endpoints de contacto y diagnóstico ya validan y aceptan solicitudes; la persistencia actual es solo de desarrollo.
 - `npm audit --omit=dev` reporta vulnerabilidades transitivas de Next 15/Sharp/PostCSS; actualizar a Next 16 requiere una migración mayor y queda pendiente.
-- Git no está disponible en el entorno actual, por lo que no se pudo crear commit ni ejecutar push remoto.
+- El repositorio remoto está configurado y el despliegue se documenta en `docs/deployment.md`.
 
 ## Decisiones
 
