@@ -68,6 +68,6 @@ Pendiente: definir el dominio de producción.
 
 ## Estado
 
-- Sprint actual: 1 (Foundation)
-- Completados: 0 (arquitectura), 1 (foundation)
-- Siguiente: Sprint 2 — landing page
+- Sprint actual: 5 (Backend y QA)
+- Completados: arquitectura, foundation, landing, servicios, diagnóstico, blog y backend inicial
+- Siguiente: persistencia durable y publicación pública
