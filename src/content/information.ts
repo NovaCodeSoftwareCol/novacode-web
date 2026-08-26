@@ -17,7 +17,7 @@ export const informationPages = {
     intro: "Combinamos tecnologías empresariales probadas con herramientas modernas cuando mejoran la mantenibilidad, la entrega o la operación.",
     items: ["Java, Spring y Spring Boot", "Hibernate y bases de datos SQL", "React y Next.js para nuevas interfaces", "Docker, Kubernetes y CI/CD"],
     groups: [
-      { title: "Backend", technologies: "Java · Spring Boot · .NET · Node.js · Python · FastAPI" },
+      { title: "Backend", technologies: "Java · Spring Boot · .NET · C# · Node.js · Python · FastAPI" },
       { title: "Frontend", technologies: "React · Next.js · Angular · Vue · TypeScript" },
       { title: "Datos", technologies: "PostgreSQL · SQL Server · MySQL · Oracle · MongoDB · Redis" },
       { title: "Cloud & DevOps", technologies: "AWS · Azure · Google Cloud · Docker · Kubernetes · GitHub Actions" },

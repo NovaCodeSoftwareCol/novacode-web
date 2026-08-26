@@ -90,6 +90,15 @@ export const services: Service[] = [
     benefits: ["Configuración simplificada", "Observabilidad preparada", "Entrega incremental"],
     technologies: ["Java", "Spring", "Spring Boot", "Hibernate", "JPA", "REST"],
   },
+  {
+    slug: "dotnet",
+    category: "Especialidad / .NET",
+    title: ".NET & Microsoft",
+    summary: "Aplicaciones y servicios .NET preparados para integrarse y evolucionar.",
+    detail: "Podemos modernizar aplicaciones .NET, construir APIs con .NET Core y conectar el ecosistema Microsoft con plataformas empresariales existentes.",
+    benefits: ["Evolución controlada", "Integración con el ecosistema Microsoft", "Servicios mantenibles"],
+    technologies: [".NET", ".NET Core", "C#", "ASP.NET", "Azure"],
+  },
 ];
 
 export function getService(slug: string) {

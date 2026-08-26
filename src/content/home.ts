@@ -6,7 +6,7 @@ export const homeContent = {
       "Diseñamos, modernizamos e integramos soluciones de software para transformar sistemas existentes y construir nuevas plataformas preparadas para crecer.",
   },
   problems: [
-    "Versiones antiguas de Java y dependencias sin soporte",
+    "Sistemas heredados que frenan nuevos productos",
     "Deuda técnica que ralentiza cada cambio",
     "Servidores obsoletos y poca trazabilidad operativa",
     "Riesgo de migrar un sistema crítico de una sola vez",
@@ -20,10 +20,10 @@ export const homeContent = {
     { number: "06", title: "Producción", description: "Acompañamos el despliegue y dejamos una plataforma preparada para crecer." },
   ],
   services: [
-    { title: "Modernización Java", description: "Actualización progresiva de aplicaciones Java legacy." },
-    { title: "Spring Boot", description: "Migración hacia servicios más simples, observables y mantenibles." },
-    { title: "APIs REST", description: "Diseño y evolución de contratos para integrar el negocio." },
-    { title: "Datos y DevOps", description: "Bases de datos, CI/CD y despliegues con trazabilidad." },
+    { title: "Modernización", description: "Evolucionamos software existente sin perder continuidad." },
+    { title: "Desarrollo", description: "Construimos aplicaciones, plataformas y productos digitales." },
+    { title: "Cloud & DevOps", description: "Automatizamos entrega, infraestructura y operación." },
+    { title: "Data & IA", description: "Convertimos datos y automatización en capacidades útiles." },
   ],
-  technologies: ["Java", "Spring Boot", "Hibernate", "SQL Server", "Oracle", "Docker", "Kubernetes", "CI/CD"],
+  technologies: ["Java", ".NET", "Python", "Node.js", "React", "Next.js", "PostgreSQL", "AWS", "Docker", "IA"],
 } as const;

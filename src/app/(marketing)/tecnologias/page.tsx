@@ -5,7 +5,7 @@ import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
   title: marketingPages.tecnologias.title,
-  description: marketingPages.tecnologias.description,
+  description: "Stack tecnológico multi-stack para backend, frontend, datos, cloud, DevOps e inteligencia artificial.",
   path: "/tecnologias",
 });
 

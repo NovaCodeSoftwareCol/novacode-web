@@ -2,8 +2,8 @@
 
 ## Estado
 
-- Sprint actual: 5 (Backend y QA) — MVP operativo en local
-- Completados: 0 Arquitectura, 1 Foundation, 2 Landing, 3 Servicios, 4 Diagnóstico, blog editorial, backend inicial, pruebas de validación, seguridad HTTP básica
+- Sprint actual: 5 (Backend y QA) — MVP multi-stack operativo en local
+- Completados: 0 Arquitectura, 1 Foundation, 2 Landing, 3 Servicios multi-stack, 4 Diagnóstico, blog editorial, backend inicial, pruebas de validación, seguridad HTTP básica
 - En progreso: persistencia durable y preparación de publicación pública
 - Pendientes: ampliar páginas informativas, persistencia backend, dashboard y portal
 

@@ -27,7 +27,7 @@ export const marketingPages = {
     title: "Tecnologías",
     heading: "Tecnologías con las que trabajamos",
     description:
-      "Java, Spring, datos empresariales, frontend moderno, contenedores y entrega continua. Cada tecnología se usa en contexto, no como decoración.",
+      "Un stack multi-stack para backend, frontend, datos, cloud, DevOps e inteligencia artificial. Cada tecnología se usa en contexto, no como decoración.",
   },
   nosotros: {
     title: "Nosotros",

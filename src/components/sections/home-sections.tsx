@@ -87,7 +87,7 @@ export function HomeSections() {
         <Container className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <Reveal>
             <ShieldCheck className="h-6 w-6 text-accent" aria-hidden="true" />
-            <Heading as="h2" className="mt-5 max-w-2xl text-bg">¿Tu sistema Java necesita evolucionar?</Heading>
+            <Heading as="h2" className="mt-5 max-w-2xl text-bg">¿Tu software necesita evolucionar?</Heading>
             <p className="mt-4 max-w-xl leading-7 text-bg/70">Empecemos por entender dónde está hoy y qué necesita para avanzar.</p>
           </Reveal>
           <Reveal>
